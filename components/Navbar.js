@@ -1,1 +1,1 @@
-export default function Navbar(){return <nav>Aura e Luce</nav>}
+export default ()=> <nav style={{padding:'20px'}}>Aura e Luce</nav>;

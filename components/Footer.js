@@ -1,1 +1,1 @@
-export default function Footer(){return <footer>© Aura e Luce</footer>}
+export default ()=> <footer style={{padding:'20px'}}>© Aura e Luce</footer>;

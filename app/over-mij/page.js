@@ -1,1 +1,1 @@
-export default function Page(){return <main><h1>Over Mij</h1></main>}
+export default ()=> <main><h1>Over Mij</h1><p>De persoon achter Aura e Luce.</p></main>;

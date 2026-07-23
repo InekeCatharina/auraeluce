@@ -1,1 +1,2 @@
-export default function Page(){return <main><h1>Fine-Art Hondenfotografie</h1><p>Elke hond is een dankbaar onderwerp. Elke foto een kunstwerk.</p></main>}
+import Navbar from '../components/Navbar';import Footer from '../components/Footer';
+export default function Home(){return<><Navbar/><main className='hero'><h1>Fine-Art Hondenfotografie</h1><h2>Elke hond is een dankbaar onderwerp. Elke foto een kunstwerk.</h2><p>Ik fotografeer vanuit pure hobby, zonder tarief — omdat ik mijn eigen passie voor fotografie wil volgen.</p></main><Footer/></>}

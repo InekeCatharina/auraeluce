@@ -1,1 +1,1 @@
-export default function Page(){return <main><h1>Portfolio</h1></main>}
+export default ()=> <main><h1>Portfolio</h1><ul><li>Portret</li><li>Gouden Uur</li><li>Senior</li><li>Puppy</li></ul></main>;
