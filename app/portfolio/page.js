@@ -1,1 +1,2 @@
-export default ()=> <main><h1>Portfolio</h1><ul><li>Portret</li><li>Gouden Uur</li><li>Senior</li><li>Puppy</li></ul></main>;
+import PortfolioCard from '../../components/PortfolioCard';
+export default function Portfolio(){return <main><h1>Portfolio</h1><PortfolioCard title='Portret' href='/portfolio/portret'/><PortfolioCard title='Gouden Uur' href='/portfolio/gouden-uur'/><PortfolioCard title='Senior' href='/portfolio/senior'/><PortfolioCard title='Puppy' href='/portfolio/puppy'/></main>}

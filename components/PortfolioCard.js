@@ -1,0 +1,1 @@
+export default function PortfolioCard({title,href}){return <a href={href} style={{display:'block',padding:'40px',border:'1px solid #8c6b2f',margin:'20px'}}>{title}</a>}

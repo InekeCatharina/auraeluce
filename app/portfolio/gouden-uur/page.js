@@ -1,0 +1,1 @@
+export default ()=> <main><h1>Gouden Uur</h1></main>;
