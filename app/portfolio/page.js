@@ -1,12 +1,17 @@
 
-import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Portfolio() {
   return (
     <main className="container">
       <h1>Portfolio</h1>
-      <Image src="https://images.unsplash.com/photo-1543466835-00a7907e9de1"
-        width={800} height={500} alt="dog" />
+
+      <div className="categories">
+        <Link href="/portfolio/portret">Portret</Link>
+        <Link href="/portfolio/actie">Actie</Link>
+        <Link href="/portfolio/puppy">Puppy</Link>
+        <Link href="/portfolio/senior">Senior</Link>
+      </div>
     </main>
   )
 }
