@@ -1,25 +1,22 @@
+
 import './globals.css'
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Aura e Luce | Hondenfotografie',
-  description: 'Fine art hondenfotografie met natuurlijk licht.'
+  title: 'Aura e Luce | Fine Art Hondenfotografie',
+  description: 'Fine-art hondenfotografie met focus op licht, karakter en compositie.'
 }
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="nl">
+    <html>
       <body>
-        <header className="header">
-          <h1 className="logo">Aura e Luce</h1>
-          <nav>
-            <Link href="/">Home</Link>
-            <Link href="/portfolio">Portfolio</Link>
-            <Link href="/contact">Contact</Link>
-          </nav>
-        </header>
+        <nav style={{padding:20}}>
+          <Link href="/">Home</Link> | 
+          <Link href="/portfolio"> Portfolio</Link> | 
+          <Link href="/over-mij"> Over Mij</Link>
+        </nav>
         {children}
-        <footer className="footer">© Aura e Luce</footer>
       </body>
     </html>
   )
