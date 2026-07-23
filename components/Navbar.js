@@ -1,0 +1,1 @@
+export default function Navbar(){return <nav>Aura e Luce</nav>}

@@ -1,0 +1,1 @@
+export default function Footer(){return <footer>© Aura e Luce</footer>}

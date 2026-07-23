@@ -1,1 +1,1 @@
-export default function Home(){return <main><h1>Aura e Luce</h1></main>}
+export default function Page(){return <main><h1>Fine-Art Hondenfotografie</h1><p>Elke hond is een dankbaar onderwerp. Elke foto een kunstwerk.</p></main>}
